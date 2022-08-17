@@ -1,3 +1,5 @@
+src/p*
+src/Slack/
 .metadata
 bin/
 tmp/
