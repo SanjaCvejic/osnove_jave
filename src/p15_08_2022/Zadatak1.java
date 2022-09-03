@@ -4,20 +4,18 @@ public class Zadatak1 {
 
 	public static void main(String[] args) {
 		// Napisati metodu koja stampa ime i prezime
-		//i u glavnom programu pozvati metodu na izvrsenje 5 puta.
-		
+		// i u glavnom programu pozvati metodu na izvrsenje 5 puta.
+
 		for (int i = 0; i < 5; i++) {
-		print ();
+			print();
 		}
-		
-		
+
 	}
-	
-	public static void print () {
-		
+
+	public static void print() {
+
 		System.out.println("Sanja Cvejic");
-		
-		
+
 	}
 
 }

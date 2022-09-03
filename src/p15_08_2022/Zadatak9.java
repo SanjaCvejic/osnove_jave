@@ -5,20 +5,22 @@ import java.util.Scanner;
 public class Zadatak9 {
 
 	public static void main(String[] args) {
-		// Napisati metodu koja vrsi konverziju rimske(string) u arapske brojeve(int). 
-		//1 - I
-		//2 - II
-		//3 - III
-		//4 - IV
-		//5 - V
+		// Napisati metodu koja vrsi konverziju rimske(string) u arapske brojeve(int).
+		// 1 - I
+		// 2 - II
+		// 3 - III
+		// 4 - IV
+		// 5 - V
 
-		//Kao parametar se unosi vrednost rimkog broja(string) a vraca se arapski (int).
-		//Ako se unese V vraca se 5.
-		
+		// Kao parametar se unosi vrednost rimkog broja(string) a vraca se arapski
+		// (int).
+		// Ako se unese V vraca se 5.
+
 		Scanner s = new Scanner(System.in);
 		System.out.println("Unesite rimski broj: ");
 		String rimski = s.next();
-		System.out.println("Arapski broj je: " + arapski (rimski));
+		System.out.println("Arapski broj je: " + arapski(rimski));
+		s.close();
 	}
 
 	public static int arapski(String broj) {
@@ -33,7 +35,7 @@ public class Zadatak9 {
 		} else if (broj.equals("V")) {
 			return 5;
 		}
-			return 0;
-		
+		return 0;
+
 	}
 }
